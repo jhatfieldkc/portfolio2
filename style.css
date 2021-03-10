@@ -1,18 +1,3 @@
-.pageTitle {
-    font-family: 'Lora', serif;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-}
-
-.card {
-    width: 250px;
-    box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    border-radius: 25px;
-}
-
 /* Card Styling */
 
 body {
@@ -29,7 +14,6 @@ body {
 
 .container {
     max-width: 720px;
-    margin: 24px auto 48px auto;
 }
 
 .cardTitle {
@@ -204,8 +188,10 @@ a:hover {
 }
 
 .frame img {
-    width: 350px;
-    height: 350px;
+    width: 335px;
+    height: 335px;
+    border-radius: 10%;
+    padding: 5px;
 }
 
 .frame .details {
@@ -221,6 +207,7 @@ a:hover {
     background: rgba(255, 255, 255, 0.9);
     opacity: 0;
     transition: all 0.4s ease-in;
+    border-radius: 10%;
 }
 
 .frame:hover .details {
