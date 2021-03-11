@@ -191,7 +191,12 @@ a:hover {
     width: 335px;
     height: 335px;
     border-radius: 10%;
-    padding: 5px;
+    padding: 25px;
+    box-shadow: 0 0 50px #555;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: -9px;
 }
 
 .frame .details {
@@ -227,7 +232,7 @@ ul {
     display: flex;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 
