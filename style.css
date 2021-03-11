@@ -192,7 +192,7 @@ a:hover {
     height: 335px;
     border-radius: 10%;
     padding: 25px;
-    box-shadow: 0 0 50px #555;
+    box-shadow: 0 0 15px 1px #555;
     margin-top: 8px;
     margin-left: 8px;
     margin-right: 8px;
